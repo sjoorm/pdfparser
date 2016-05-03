@@ -330,7 +330,7 @@ class Object
                         }
 
                         $sub_text = $current_font->decodeText($command[self::COMMAND]);
-                        $text .= $sub_text;
+                        $text .= ' ' . $sub_text;
                         break;
 
                     // set leading
